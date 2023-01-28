@@ -1,0 +1,81 @@
+@media (max-width:375px) {
+    body{
+        font-size: 1.5rem;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    form{
+        margin: 40rem auto auto 2rem;
+    }
+    input{
+        height: 5rem;
+        width: 33rem;
+        
+    }
+    #yr{
+        margin: 13rem 0 50rem 25.3rem;
+        font-size: 1.3rem;
+    }
+    .side{
+        display: none;
+    }
+    .cell{
+        display: flex;
+        position: absolute;
+    }
+    .front-card img{
+        width: 29rem;
+
+    }
+    .front-card{
+        margin: 15rem 0 50rem 2rem;
+        z-index: 3;
+    }
+    .logo{
+        height: 3rem;
+        margin: 17rem 0 50rem 6rem;
+        z-index: 4;
+    }
+    .zero{
+        margin: 8rem 0 50rem 4rem;
+        font-size: 2rem;
+    }
+    .holder{
+        margin: 13rem 0 50rem 4rem;
+        font-size: 1.3rem;
+    }
+    .monyear{
+        margin: 13rem 0 50rem 23rem;
+        font-size: 1.3rem;
+    }
+    .slash{
+        margin: 12.9rem 0 50rem 24.6rem;
+        font-size: 1.3rem;
+    }
+    .back-card img{
+        width: 29rem;
+    }
+    .back-card{
+        margin: 5rem 0 80rem 6rem;
+    }
+    .code-1{
+        margin: 7rem 0 50rem 23rem;
+        
+    }
+    .codedigits{
+        width: 13rem;  
+    }
+    .primary-button{
+        width: 33rem;
+    }
+    .complete-tab{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        margin: 40rem auto auto auto;
+    }
+    .next{
+        width: 33rem;
+    }
+
+}

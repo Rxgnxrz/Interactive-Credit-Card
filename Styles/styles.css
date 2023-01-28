@@ -1,0 +1,194 @@
+:root {
+ --Linear-gradient: hsl(249, 99%, 64%);
+ --Red: hsl(0, 100%, 66%);
+ --White: hsl(0, 0%, 100%);
+ --Light-grayish-violet: hsl(270, 3%, 87%);
+ --Dark-grayish-violet: hsl(279, 6%, 55%);
+ --Very-dark-violet: hsl(278, 68%, 11%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 1.8rem;
+    overflow-y: hidden;
+	overflow-x: hidden;
+}
+.background{
+    display: flex;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 25rem auto auto 40rem;
+}
+input{
+    height: 5rem;
+    width: 40rem;
+    padding: 1.5rem;
+    border-radius: 0.6rem;
+    font-family: inherit;
+    border: solid 0.1rem var(--Light-grayish-violet);
+    margin: 1rem 0 1rem 0;
+}
+input:hover {
+    border-color: var(--Linear-gradient);
+}
+.containers{
+    display: flex;
+}
+#yr{
+    display: flex;
+    position: absolute;
+    margin: 18rem 0 50rem 36.2rem;
+    color: var(--White);
+    font-family: inherit;
+}
+.name{
+    margin: 1rem 0 1rem 2rem;
+}
+.card-number{
+    margin: 1rem 0 1rem 0;
+}
+.codate{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.date-label{
+    display: flex;
+    flex-direction: column;  
+}
+.container-2{
+    display: flex;
+    gap: 2rem;
+}
+.month{
+    width: 8rem;
+    font-family: inherit;
+    margin: 1rem 0 1rem 0;
+}
+.year{
+    width: 8rem;
+    font-family: inherit;
+    margin: 1rem 0 1rem 0;
+}
+.code{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    font-family: inherit;  
+}
+.codedigits{
+    width: 20rem;  
+    margin: 1rem 0 1rem 0;
+}
+.primary-button{
+    color: var(--White);
+    background-color: var(--Very-dark-violet);
+    font-family: inherit;
+    font-size: 1.8rem;
+    height: 5rem;
+    border-radius: 0.6rem;
+    width: 40rem;
+}
+.cell{
+    display: none;
+}
+.side img{
+    height: 100vh;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+.front-card{
+    display: flex;
+    position: absolute;
+    margin: 15rem 0 50rem 15rem;
+}
+.zero{
+    display: flex;
+    position: absolute;
+    margin: 12rem 0 50rem 7rem;
+    color: var(--White);
+    font-family: inherit;
+    font-size: 3rem;
+    
+
+}
+.holder{
+    display: flex;
+    position: absolute;
+    margin: 18rem 0 50rem 7rem;
+    color: var(--White);
+    font-family: inherit;
+}
+.monyear{
+    display: flex;
+    position: absolute;
+    margin: 18rem 0 50rem 33rem;
+    color: var(--White);
+    font-family: inherit;
+}
+.slash{
+    display: flex;
+    position: absolute;
+    margin: 17.8rem 0 50rem 35.4rem;
+    color: var(--White);
+    font-family: inherit;
+}
+.logo{
+    position: absolute;
+    margin: 17rem 0 50rem 19rem;
+    display: flex;
+    z-index: 3;
+}
+.back-card{
+    position: absolute;
+    margin: 45rem 0 80rem 27rem;
+    display: flex;
+}
+.code-1{
+    display: flex;
+    position: absolute;
+    margin: 11rem 0 50rem 36rem;
+    color: var(--White);
+    font-family: inherit;
+}
+.complete-tab{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10rem 45rem;
+}
+.check{
+    height: 10vh;
+    margin: 0 0 4rem 0;
+}
+.thanks{
+    font-size: 3rem;
+    margin: 0 0 2rem 0;
+}
+.add{
+    color: var(--Dark-grayish-violet);
+}
+.next{
+    color: var(--White);
+    background-color: var(--Very-dark-violet);
+    font-family: inherit;
+    font-size: 1.8rem;
+    height: 5rem;
+    border-radius: 0.6rem;
+    width: 40rem;
+    margin-top: 3rem;
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="./Styles/mobile.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="background">       
+    
+        <div class="cell">
+            <img src="./images/bg-main-mobile.png" alt="">
+        </div>
+    <aside class="cards">
+        <div class="side">
+            <img src="./images/bg-main-desktop.png" alt="">
+        </div>
+        <div class="logo">
+            <img src="./images/card-logo.svg" alt="">
+        </div>
+        <div class="front-card">
+            <img src="./images/bg-card-front.png" alt="">
+            <p class="zero" id="cnmber">0000 0000 0000 0000</p>
+            <p class="holder" id="resultado">Jane Appleseed</p>
+            <p class="monyear" id="mnth">00</p>
+            <p class="slash">/</p>
+            <p id="yr">00</p>
+        </div>
+        <div class="back-card">
+            <img src="./images/bg-card-back.png" alt="">
+            <span class="code-1" id="cde">000</span>
+
+        </div>
+    </aside>
+
+        
+
+
+    <form action="" class="containers">
+        <label for="">Cardholder Name</label>
+        <input type="text" placeholder="e.g Jane Appleseed" id="name" oninput="getValue()">
+
+        <label for="">Card Number</label>
+        <input type="text" placeholder="e.g 1234 5678 9123 0000" maxlength="16" id="number" class="card-number"onInput="getNumber()">
+    <div class="codate">
+
+    <label for="" class="date-label">Exp Date (MM/YY)
+        <div class="container-2">
+            <input type="text" placeholder="MM" maxlength="2" class="month" id="month" oninput="getMonth()">
+            <input type="text" placeholder="YY" maxlength="2" class="year" id="year" oninput="getYear()">
+        </div> 
+    </label> 
+
+    <label for="text" class="code">CVC
+            <input type="text" placeholder="e.g 123" maxlength="3" class="codedigits" id="code" oninput="getCode()">
+    </label>
+    </div>
+        
+        <button type="submit" class="primary-button">Confirm</button>
+    </form>
+    <div class="complete-tab">
+        <img src="./images/icon-complete.svg" alt="" class="check">
+        <p class="thanks">THANK YOU!</p>
+        <p class="add">We've added your card details</p>
+        <button type="submit"class="next" id="submit">Continue</button>
+    </div>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
